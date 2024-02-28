@@ -104,10 +104,10 @@ public class AtmMachineDisplay {
 		try {
 				short type=(short) db.getType(card);
 				System.out.println("+----------------------------------------+");
-				System.out.println("|      💳  Canara Bank ATM               |");
+				System.out.println("|      💳    CANARA BANK ATM             |");
 				System.out.println("+----------------------------------------+");
 				System.out.println("|      🌟 Welcome, " + card.getHolder() + "      |");
-				System.out.println("|         Choose The Service             |");
+				System.out.println("|         Choose The Service              |");
 				System.out.println("|   1. 💰 Balance Enquiry                |");
 				System.out.println("|   2. 💵 Deposit                        |");
 				System.out.println("|   3. 💸 Withdraw                       |");
