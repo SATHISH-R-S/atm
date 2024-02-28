@@ -104,7 +104,7 @@ public class AtmMachineDisplay {
 		try {
 				short type=(short) db.getType(card);
 				System.out.println("+----------------------------------------+");
-				System.out.println("|      💳  " + atm.getBankNmae() + " ATM              |");
+				System.out.println("|      💳  Canara Bank ATM               |");
 				System.out.println("+----------------------------------------+");
 				System.out.println("|      🌟 Welcome, " + card.getHolder() + "      |");
 				System.out.println("|         Choose The Service             |");
